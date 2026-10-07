@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EAE",
+    "AXA",
+    "AUA"
+  ],
+  "key": {
+    "A": {
+      "item": "enigmaticlegacy:astral_dust"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    },
+    "U": {
+      "item": "enigmaticlegacy:astral_fruit"
+    },
+    "X": {
+      "item": "minecraft:sapling",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "enigmaticdelicacy:astral_sapling",
+    "count": 1
+  }
+}

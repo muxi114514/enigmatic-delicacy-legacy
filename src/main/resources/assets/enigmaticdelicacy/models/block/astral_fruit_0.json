@@ -1,0 +1,296 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "0": "enigmaticdelicacy:block/astral_fruit",
+    "particle": "enigmaticdelicacy:block/astral_fruit"
+  },
+  "elements": [
+    {
+      "from": [
+        6.75,
+        15,
+        8
+      ],
+      "to": [
+        9.25,
+        16,
+        8
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          8,
+          15,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            3.5,
+            0,
+            4.5,
+            0.5
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            3.5,
+            0,
+            4.5,
+            0.5
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "from": [
+        6.75,
+        15,
+        8
+      ],
+      "to": [
+        9.25,
+        16,
+        8
+      ],
+      "rotation": {
+        "angle": -45,
+        "axis": "y",
+        "origin": [
+          8,
+          15,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            3.5,
+            0,
+            4.5,
+            0.5
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            3.5,
+            0,
+            4.5,
+            0.5
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        15,
+        7
+      ],
+      "to": [
+        9,
+        15,
+        9
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          7,
+          13,
+          7
+        ]
+      },
+      "faces": {
+        "up": {
+          "uv": [
+            8,
+            0.5,
+            9,
+            1.5
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            8,
+            0.5,
+            9,
+            1.5
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        15,
+        6
+      ],
+      "to": [
+        9,
+        15,
+        7
+      ],
+      "rotation": {
+        "angle": -22.5,
+        "axis": "x",
+        "origin": [
+          8,
+          15,
+          7
+        ]
+      },
+      "faces": {
+        "up": {
+          "uv": [
+            8,
+            0,
+            9,
+            0.5
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            8,
+            0,
+            9,
+            0.5
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        15,
+        9
+      ],
+      "to": [
+        9,
+        15,
+        10
+      ],
+      "rotation": {
+        "angle": 22.5,
+        "axis": "x",
+        "origin": [
+          8,
+          15,
+          9
+        ]
+      },
+      "faces": {
+        "up": {
+          "uv": [
+            8,
+            1.5,
+            9,
+            2
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            8,
+            1.5,
+            9,
+            2
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "from": [
+        9,
+        15,
+        7
+      ],
+      "to": [
+        10,
+        15,
+        9
+      ],
+      "rotation": {
+        "angle": -22.5,
+        "axis": "z",
+        "origin": [
+          9,
+          15,
+          8
+        ]
+      },
+      "faces": {
+        "up": {
+          "uv": [
+            9,
+            0.5,
+            9.5,
+            1.5
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            9,
+            0.5,
+            9.5,
+            1.5
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        15,
+        7
+      ],
+      "to": [
+        7,
+        15,
+        9
+      ],
+      "rotation": {
+        "angle": 22.5,
+        "axis": "z",
+        "origin": [
+          7,
+          15,
+          8
+        ]
+      },
+      "faces": {
+        "up": {
+          "uv": [
+            7.5,
+            0.5,
+            8,
+            1.5
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            7.5,
+            0.5,
+            8,
+            1.5
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ]
+}

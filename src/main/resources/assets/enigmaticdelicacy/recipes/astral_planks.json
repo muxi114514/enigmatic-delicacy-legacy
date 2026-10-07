@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      {
+        "item": "enigmaticdelicacy:astral_log"
+      },
+      {
+        "item": "enigmaticdelicacy:astral_wood"
+      },
+      {
+        "item": "enigmaticdelicacy:stripped_astral_log"
+      },
+      {
+        "item": "enigmaticdelicacy:stripped_astral_wood"
+      }
+    ]
+  ],
+  "result": {
+    "item": "enigmaticdelicacy:astral_planks",
+    "count": 4
+  }
+}

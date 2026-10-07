@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PTP",
+    "QXQ",
+    "PQP"
+  ],
+  "key": {
+    "P": {
+      "item": "enigmaticdelicacy:astral_petal"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "T": {
+      "item": "minecraft:ghast_tear"
+    },
+    "X": {
+      "item": "enigmaticlegacy:gem_ring"
+    }
+  },
+  "result": {
+    "item": "enigmaticdelicacy:petal_ring",
+    "count": 1
+  }
+}

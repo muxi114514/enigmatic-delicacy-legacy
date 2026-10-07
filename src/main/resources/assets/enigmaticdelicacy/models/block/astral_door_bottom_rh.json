@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom_rh",
+  "textures": {
+    "bottom": "enigmaticdelicacy:block/astral_door_bottom",
+    "top": "enigmaticdelicacy:block/astral_door_top"
+  }
+}

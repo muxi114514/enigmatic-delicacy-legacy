@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "enigmaticdelicacy:block/astral_cabinet_front_open",
+    "side": "enigmaticdelicacy:block/astral_cabinet_side",
+    "top": "enigmaticdelicacy:block/astral_cabinet_top"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "enigmaticdelicacy:sticky_pie_slice"
+    }
+  },
+  "result": {
+    "item": "enigmaticdelicacy:sticky_pie",
+    "count": 1
+  }
+}

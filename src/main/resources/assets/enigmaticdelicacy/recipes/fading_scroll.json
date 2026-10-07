@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CGC",
+    "BXF",
+    "CGC"
+  ],
+  "key": {
+    "B": {
+      "type": "forge:ore_dict",
+      "ore": "dyeWhite"
+    },
+    "C": {
+      "item": "enigmaticdelicacy:enigmatic_cream"
+    },
+    "F": {
+      "item": "minecraft:feather"
+    },
+    "G": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "X": {
+      "item": "enigmaticlegacy:thicc_scroll"
+    }
+  },
+  "result": {
+    "item": "enigmaticdelicacy:fading_scroll",
+    "count": 1
+  }
+}

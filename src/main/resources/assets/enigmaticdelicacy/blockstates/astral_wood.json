@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "enigmaticdelicacy:astral_wood"
+    },
+    "axis=z": {
+      "model": "enigmaticdelicacy:astral_wood",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "enigmaticdelicacy:astral_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=none": {
+      "model": "enigmaticdelicacy:astral_wood"
+    }
+  }
+}

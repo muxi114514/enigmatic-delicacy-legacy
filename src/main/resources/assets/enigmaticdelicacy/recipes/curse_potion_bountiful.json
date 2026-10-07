@@ -1,0 +1,37 @@
+{
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "minecraft:item_exists",
+        "item": "enigmaticlegacy:recall_potion"
+      }
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bountifulbaubles"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bountifulbaubles:potionrecall"
+    },
+    {
+      "item": "enigmaticdelicacy:cursed_soul_fragment"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "eaddons:ichor_droplet"
+    },
+    {
+      "item": "eaddons:infernal_cinder"
+    }
+  ],
+  "result": {
+    "item": "enigmaticdelicacy:curse_potion",
+    "count": 1
+  }
+}

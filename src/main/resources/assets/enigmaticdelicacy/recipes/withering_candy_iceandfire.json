@@ -1,0 +1,40 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "iceandfire"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "enigmaticdelicacy:enigmatic_cream"
+    },
+    {
+      "item": "enigmaticdelicacy:enigmatic_fruit_black"
+    },
+    {
+      "item": "iceandfire:wither_shard"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "dyeBlack"
+    }
+  ],
+  "result": {
+    "item": "enigmaticdelicacy:withering_candy",
+    "count": 4
+  }
+}

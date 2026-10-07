@@ -1,0 +1,91 @@
+buildscript {
+    repositories {
+        maven { url = 'https://maven.minecraftforge.net' }
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
+    }
+}
+apply plugin: 'net.minecraftforge.gradle.forge'
+apply plugin: 'eclipse'
+
+version = '1.0.0'
+group = 'net.mx.edelicacy'
+archivesBaseName = 'enigmatic-delicacy-legacy'
+
+sourceCompatibility = targetCompatibility = '1.8'
+compileJava {
+    sourceCompatibility = targetCompatibility = '1.8'
+}
+
+minecraft {
+    version = '1.12.2-14.23.5.2847'
+    runDir = 'run'
+    mappings = 'snapshot_20171003'
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+def libJar(String keyword) {
+    return fileTree(dir: 'libs', include: '**/*.jar').find { it.name.toLowerCase().contains(keyword) }
+}
+
+dependencies {
+    // 饰品（硬前置）
+    deobfCompile name: 'Baubles-1.12-1.5.2'
+    // 神秘遗物 1.12.2 与神遗拓展（硬前置）：只调用它们自己的方法，不需反混淆
+    compile files(libJar('enigmaticlegacy-legacy'))
+    compile files(libJar('enigmatic-addons-legacy'))
+    // FermiumBooter（硬前置）：Mixin 库与 mixin 配置注册
+    compile files(libJar('fermiumbooter'))
+    // 农夫乐事 Legacy（硬前置）：要继承它的方块类，必须反混淆成 MCP 名
+    deobfProvided name: libJar('farmersdelightlegacy').name.replace('.jar', '')
+    // 以下为软依赖，仅编译不打包
+    deobfProvided name: libJar('nethers-delight').name.replace('.jar', '')
+    deobfProvided name: libJar('jei_').name.replace('.jar', '')
+    deobfProvided name: libJar('hwyla').name.replace('.jar', '')
+    deobfProvided name: libJar('simpledifficulty').name.replace('.jar', '')
+    // CraftTweaker 的 jar 自带重复的 AT 条目，FG2.3 反混淆会报 duplicate entry，直接 compileOnly
+    compileOnly files(libJar('crafttweaker'))
+}
+
+// 同时作为 coremod 加载（仅用于注册 mixin 配置），FML 仍会扫描其中的 @Mod
+jar {
+    manifest {
+        attributes(
+                'FMLCorePlugin': 'net.mx.edelicacy.core.DelicacyCorePlugin',
+                'FMLCorePluginContainsFMLMod': 'true',
+                'ForceLoadAsMod': 'true'
+        )
+    }
+}
+
+processResources {
+    inputs.property 'version', project.version
+    inputs.property 'mcversion', project.minecraft.version
+
+    from(sourceSets.main.resources.srcDirs) {
+        include 'mcmod.info'
+        expand 'version': project.version, 'mcversion': project.minecraft.version
+    }
+
+    from(sourceSets.main.resources.srcDirs) {
+        exclude 'mcmod.info'
+    }
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+    options.fork = true
+    // 英文编译报错，避免中文系统下控制台乱码
+    options.forkOptions.jvmArgs << '-Dfile.encoding=UTF-8' << '-Duser.language=en'
+}
+
+tasks.withType(JavaExec) {
+    jvmArgs '-Dfile.encoding=UTF-8', '-Dstdout.encoding=UTF-8', '-Dstderr.encoding=UTF-8'
+}

@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.mx.edelicacy.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "target": "@env(DEFAULT)",
+  "mixins": [
+    "MixinElInsomnia",
+    "MixinElAbyssalHeartCap",
+    "MixinElBerserkPool"
+  ],
+  "client": [],
+  "verbose": false
+}

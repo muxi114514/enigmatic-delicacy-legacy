@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " LB",
+    "IXH",
+    "SI "
+  ],
+  "key": {
+    "B": {
+      "item": "enigmaticdelicacy:enigmatic_fruit_blue"
+    },
+    "H": {
+      "item": "enigmaticlegacy:mega_sponge"
+    },
+    "I": {
+      "item": "minecraft:packed_ice"
+    },
+    "L": {
+      "item": "minecraft:dye",
+      "data": 4
+    },
+    "S": {
+      "item": "enigmaticlegacy:ender_rod"
+    },
+    "X": {
+      "item": "enigmaticdelicacy:enigmatic_cream"
+    }
+  },
+  "result": {
+    "item": "enigmaticdelicacy:magic_popsicle",
+    "count": 1
+  }
+}

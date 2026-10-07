@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LPL",
+    "GXG",
+    "LPL"
+  ],
+  "key": {
+    "G": {
+      "item": "enigmaticdelicacy:glistening_bark"
+    },
+    "L": {
+      "item": "minecraft:dye",
+      "data": 4
+    },
+    "P": {
+      "item": "enigmaticdelicacy:glistening_powder"
+    },
+    "X": {
+      "item": "enigmaticlegacy:earth_heart",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "enigmaticdelicacy:glistening_heart",
+    "count": 1
+  }
+}

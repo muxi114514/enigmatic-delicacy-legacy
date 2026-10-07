@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "enigmaticdelicacy:enigmatic_fruit_crate"
+    }
+  ],
+  "result": {
+    "item": "enigmaticdelicacy:enigmatic_fruit",
+    "count": 9
+  }
+}

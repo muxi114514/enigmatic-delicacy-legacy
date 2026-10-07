@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "enigmaticdelicacy:voracious_pan"
+    },
+    "facing=west": {
+      "model": "enigmaticdelicacy:voracious_pan",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "enigmaticdelicacy:voracious_pan",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "enigmaticdelicacy:voracious_pan",
+      "y": 270
+    }
+  }
+}

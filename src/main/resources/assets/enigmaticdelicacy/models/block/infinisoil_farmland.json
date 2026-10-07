@@ -1,0 +1,8 @@
+{
+  "parent": "farmersdelight:block/template_farmland_custom",
+  "textures": {
+    "top": "enigmaticdelicacy:block/infinisoil_farmland",
+    "bottom": "enigmaticdelicacy:block/infinisoil",
+    "side": "enigmaticdelicacy:block/infinisoil"
+  }
+}

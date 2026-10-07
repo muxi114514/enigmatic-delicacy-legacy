@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ANA",
+    "GXG",
+    "RGR"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "N": {
+      "item": "minecraft:gold_nugget"
+    },
+    "R": {
+      "item": "minecraft:iron_nugget"
+    },
+    "X": {
+      "item": "farmersdelight:smoked_ham"
+    }
+  },
+  "result": {
+    "item": "enigmaticdelicacy:hungry_charm",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom": {
+      "model": "enigmaticdelicacy:astral_slab"
+    },
+    "half=top": {
+      "model": "enigmaticdelicacy:astral_slab_top"
+    }
+  }
+}

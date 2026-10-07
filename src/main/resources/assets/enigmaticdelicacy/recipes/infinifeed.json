@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AHC",
+    "FXP",
+    "MBI"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:golden_apple",
+      "data": 0
+    },
+    "B": {
+      "item": "minecraft:bowl"
+    },
+    "C": {
+      "item": "minecraft:golden_carrot"
+    },
+    "F": {
+      "type": "forge:ore_dict",
+      "ore": "listAllfishraw"
+    },
+    "H": {
+      "item": "minecraft:hay_block"
+    },
+    "I": {
+      "type": "forge:ore_dict",
+      "ore": "bone"
+    },
+    "M": {
+      "type": "forge:ore_dict",
+      "ore": "listAllmeatraw"
+    },
+    "P": {
+      "type": "forge:ore_dict",
+      "ore": "listAllveggie"
+    },
+    "X": {
+      "item": "enigmaticlegacy:infinimeal"
+    }
+  },
+  "result": {
+    "item": "enigmaticdelicacy:infinifeed",
+    "count": 1
+  }
+}

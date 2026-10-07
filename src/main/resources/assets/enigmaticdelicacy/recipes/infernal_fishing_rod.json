@@ -1,0 +1,36 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "netherized"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " VG",
+    "NXN",
+    "V E"
+  ],
+  "key": {
+    "E": {
+      "type": "forge:ore_dict",
+      "ore": "scrapNetherite"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "N": {
+      "item": "minecraft:gold_nugget"
+    },
+    "V": {
+      "item": "eaddons:infernal_cinder"
+    },
+    "X": {
+      "item": "minecraft:fishing_rod"
+    }
+  },
+  "result": {
+    "item": "enigmaticdelicacy:infernal_fishing_rod",
+    "count": 1
+  }
+}

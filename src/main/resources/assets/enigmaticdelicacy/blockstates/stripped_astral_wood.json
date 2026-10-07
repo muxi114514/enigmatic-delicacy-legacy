@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "enigmaticdelicacy:stripped_astral_wood"
+    },
+    "axis=z": {
+      "model": "enigmaticdelicacy:stripped_astral_wood",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "enigmaticdelicacy:stripped_astral_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=none": {
+      "model": "enigmaticdelicacy:stripped_astral_wood"
+    }
+  }
+}

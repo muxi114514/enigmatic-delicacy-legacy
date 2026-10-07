@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LGL",
+    "PXP",
+    "LVL"
+  ],
+  "key": {
+    "G": {
+      "item": "enigmaticdelicacy:glistening_bark"
+    },
+    "L": {
+      "item": "minecraft:dye",
+      "data": 4
+    },
+    "P": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "V": {
+      "item": "enigmaticdelicacy:glistening_heart"
+    },
+    "X": {
+      "item": "enigmaticlegacy:enchantment_transposer"
+    }
+  },
+  "result": {
+    "item": "enigmaticdelicacy:enchantment_duplicator",
+    "count": 1
+  }
+}

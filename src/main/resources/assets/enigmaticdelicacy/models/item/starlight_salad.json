@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "enigmaticdelicacy:item/starlight_salad",
+    "layer1": "enigmaticdelicacy:item/starlight_salad_overlay"
+  }
+}

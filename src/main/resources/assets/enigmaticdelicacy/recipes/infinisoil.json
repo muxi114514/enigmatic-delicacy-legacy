@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RAR",
+    "IBI",
+    "RAR"
+  ],
+  "key": {
+    "A": {
+      "item": "enigmaticdelicacy:glistening_heart"
+    },
+    "B": {
+      "item": "minecraft:bone_block"
+    },
+    "I": {
+      "item": "enigmaticlegacy:infinimeal"
+    },
+    "R": {
+      "item": "farmersdelight:rich_soil"
+    }
+  },
+  "result": {
+    "item": "enigmaticdelicacy:infinisoil",
+    "count": 1
+  }
+}

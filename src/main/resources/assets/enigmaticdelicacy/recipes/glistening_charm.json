@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PEP",
+    "IXI",
+    "LDL"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "E": {
+      "item": "enigmaticlegacy:ender_rod"
+    },
+    "I": {
+      "item": "enigmaticlegacy:etherium_ingot"
+    },
+    "L": {
+      "item": "minecraft:lapis_block"
+    },
+    "P": {
+      "item": "enigmaticdelicacy:glistening_powder"
+    },
+    "X": {
+      "item": "enigmaticdelicacy:glistening_heart"
+    }
+  },
+  "result": {
+    "item": "enigmaticdelicacy:glistening_charm",
+    "count": 1
+  }
+}

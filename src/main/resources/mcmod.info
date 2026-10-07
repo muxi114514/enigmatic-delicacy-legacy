@@ -1,0 +1,14 @@
+[
+  {
+    "modid": "enigmaticdelicacy",
+    "name": "Enigmatic Delicacy",
+    "description": "Farmer's Delight addon for Enigmatic Legacy, ported to 1.12.2 from Auviotre's 1.21.1 mod.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "authorList": ["Auviotre", "mx"],
+    "credits": "Original mod by Auviotre",
+    "logoFile": "",
+    "dependencies": ["baubles", "enigmaticlegacy", "eaddons", "farmersdelight", "fermiumbooter"]
+  }
+]

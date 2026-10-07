@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "enigmaticdelicacy:stripped_astral_log"
+    }
+  },
+  "result": {
+    "item": "enigmaticdelicacy:stripped_astral_wood",
+    "count": 3
+  }
+}

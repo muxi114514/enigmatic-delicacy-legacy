@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "E E",
+    "DXD"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond_block"
+    },
+    "E": {
+      "item": "minecraft:end_bricks"
+    },
+    "I": {
+      "item": "enigmaticlegacy:etherium_ingot"
+    },
+    "X": {
+      "item": "enigmaticlegacy:astral_dust"
+    }
+  },
+  "result": {
+    "item": "enigmaticdelicacy:etherium_stove",
+    "count": 1
+  }
+}

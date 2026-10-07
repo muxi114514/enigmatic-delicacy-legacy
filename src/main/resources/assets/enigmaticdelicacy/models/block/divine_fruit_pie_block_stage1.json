@@ -1,0 +1,382 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "tray_bottom": "farmersdelight:block/tray_bottom",
+    "particle": "enigmaticdelicacy:block/divine_fruit_pie_top",
+    "pie_top": "enigmaticdelicacy:block/divine_fruit_pie_top",
+    "pie_side": "enigmaticdelicacy:block/divine_fruit_pie_side",
+    "pie_inner": "enigmaticdelicacy:block/divine_fruit_pie_inner",
+    "leftovers": "enigmaticdelicacy:block/divine_fruit_pie_leftovers",
+    "tray_top": "farmersdelight:block/tray_top",
+    "tray_side": "farmersdelight:block/tray_bottom"
+  },
+  "elements": [
+    {
+      "name": "base",
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        1,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            12,
+            15,
+            13
+          ],
+          "texture": "#tray_side"
+        },
+        "east": {
+          "uv": [
+            1,
+            12,
+            15,
+            13
+          ],
+          "texture": "#tray_side"
+        },
+        "south": {
+          "uv": [
+            1,
+            12,
+            15,
+            13
+          ],
+          "texture": "#tray_side"
+        },
+        "west": {
+          "uv": [
+            1,
+            12,
+            15,
+            13
+          ],
+          "texture": "#tray_side"
+        },
+        "up": {
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "texture": "#leftovers"
+        },
+        "down": {
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "texture": "#tray_bottom",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "north_edge",
+      "from": [
+        2,
+        1,
+        1
+      ],
+      "to": [
+        14,
+        2,
+        2
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            11,
+            14,
+            12
+          ],
+          "texture": "#tray_side"
+        },
+        "south": {
+          "uv": [
+            2,
+            11,
+            14,
+            12
+          ],
+          "texture": "#tray_side"
+        },
+        "up": {
+          "uv": [
+            2,
+            1,
+            14,
+            2
+          ],
+          "texture": "#tray_top"
+        }
+      }
+    },
+    {
+      "name": "south_edge",
+      "from": [
+        2,
+        1,
+        14
+      ],
+      "to": [
+        14,
+        2,
+        15
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            2,
+            11,
+            14,
+            12
+          ],
+          "texture": "#tray_side"
+        },
+        "up": {
+          "uv": [
+            2,
+            14,
+            14,
+            15
+          ],
+          "texture": "#tray_top"
+        }
+      }
+    },
+    {
+      "name": "west_edge",
+      "from": [
+        1,
+        1,
+        1
+      ],
+      "to": [
+        2,
+        2,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            14,
+            11,
+            15,
+            12
+          ],
+          "texture": "#tray_side"
+        },
+        "east": {
+          "uv": [
+            1,
+            11,
+            15,
+            12
+          ],
+          "texture": "#tray_side"
+        },
+        "south": {
+          "uv": [
+            1,
+            11,
+            2,
+            12
+          ],
+          "texture": "#tray_side"
+        },
+        "west": {
+          "uv": [
+            1,
+            11,
+            15,
+            12
+          ],
+          "texture": "#tray_side"
+        },
+        "up": {
+          "uv": [
+            1,
+            1,
+            2,
+            15
+          ],
+          "texture": "#tray_top"
+        }
+      }
+    },
+    {
+      "name": "east_edge",
+      "from": [
+        14,
+        1,
+        1
+      ],
+      "to": [
+        15,
+        2,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            11,
+            2,
+            12
+          ],
+          "texture": "#tray_side"
+        },
+        "east": {
+          "uv": [
+            1,
+            11,
+            15,
+            12
+          ],
+          "texture": "#tray_side"
+        },
+        "south": {
+          "uv": [
+            14,
+            11,
+            15,
+            12
+          ],
+          "texture": "#tray_side"
+        },
+        "up": {
+          "uv": [
+            14,
+            1,
+            15,
+            15
+          ],
+          "texture": "#tray_top"
+        }
+      }
+    },
+    {
+      "name": "pie_back_slice",
+      "from": [
+        2,
+        1,
+        8
+      ],
+      "to": [
+        14,
+        8,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            9,
+            14,
+            16
+          ],
+          "texture": "#pie_inner"
+        },
+        "east": {
+          "uv": [
+            14,
+            9,
+            8,
+            16
+          ],
+          "texture": "#pie_side"
+        },
+        "south": {
+          "uv": [
+            2,
+            9,
+            14,
+            16
+          ],
+          "texture": "#pie_side"
+        },
+        "west": {
+          "uv": [
+            8,
+            9,
+            2,
+            16
+          ],
+          "texture": "#pie_side"
+        },
+        "up": {
+          "uv": [
+            2,
+            8,
+            14,
+            14
+          ],
+          "texture": "#pie_top"
+        }
+      }
+    },
+    {
+      "name": "pie_front_slice",
+      "from": [
+        8,
+        1,
+        2
+      ],
+      "to": [
+        14,
+        8,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            9,
+            8,
+            16
+          ],
+          "texture": "#pie_side"
+        },
+        "east": {
+          "uv": [
+            8,
+            9,
+            2,
+            16
+          ],
+          "texture": "#pie_side"
+        },
+        "west": {
+          "uv": [
+            14,
+            9,
+            8,
+            16
+          ],
+          "texture": "#pie_inner"
+        },
+        "up": {
+          "uv": [
+            8,
+            2,
+            14,
+            8
+          ],
+          "texture": "#pie_top"
+        }
+      }
+    }
+  ]
+}

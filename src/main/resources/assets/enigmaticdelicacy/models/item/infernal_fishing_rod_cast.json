@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "enigmaticdelicacy:item/infernal_fishing_rod_cast"
+  }
+}

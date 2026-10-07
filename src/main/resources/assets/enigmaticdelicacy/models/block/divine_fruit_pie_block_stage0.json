@@ -1,0 +1,143 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "tray_bottom": "farmersdelight:block/tray_bottom",
+    "particle": "enigmaticdelicacy:block/divine_fruit_pie_top",
+    "pie_top": "enigmaticdelicacy:block/divine_fruit_pie_top",
+    "pie_side": "enigmaticdelicacy:block/divine_fruit_pie_side",
+    "tray_top": "farmersdelight:block/tray_top",
+    "tray_side": "farmersdelight:block/tray_bottom"
+  },
+  "elements": [
+    {
+      "name": "tray",
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        2,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            11,
+            15,
+            13
+          ],
+          "texture": "#tray_side"
+        },
+        "east": {
+          "uv": [
+            1,
+            11,
+            15,
+            13
+          ],
+          "texture": "#tray_side"
+        },
+        "south": {
+          "uv": [
+            1,
+            11,
+            15,
+            13
+          ],
+          "texture": "#tray_side"
+        },
+        "west": {
+          "uv": [
+            1,
+            11,
+            15,
+            13
+          ],
+          "texture": "#tray_side"
+        },
+        "up": {
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "texture": "#tray_top"
+        },
+        "down": {
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "texture": "#tray_bottom",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "pie",
+      "from": [
+        2,
+        2,
+        2
+      ],
+      "to": [
+        14,
+        8,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            9,
+            14,
+            15
+          ],
+          "texture": "#pie_side"
+        },
+        "east": {
+          "uv": [
+            14,
+            9,
+            2,
+            15
+          ],
+          "texture": "#pie_side"
+        },
+        "south": {
+          "uv": [
+            2,
+            9,
+            14,
+            15
+          ],
+          "texture": "#pie_side"
+        },
+        "west": {
+          "uv": [
+            14,
+            9,
+            2,
+            15
+          ],
+          "texture": "#pie_side"
+        },
+        "up": {
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ],
+          "texture": "#pie_top"
+        }
+      }
+    }
+  ]
+}

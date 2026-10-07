@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LGL",
+    "IXI",
+    "LVL"
+  ],
+  "key": {
+    "G": {
+      "item": "enigmaticdelicacy:glistening_bark"
+    },
+    "I": {
+      "item": "enigmaticlegacy:etherium_ingot"
+    },
+    "L": {
+      "item": "minecraft:dye",
+      "data": 4
+    },
+    "V": {
+      "item": "enigmaticdelicacy:glistening_heart"
+    },
+    "X": {
+      "item": "enigmaticlegacy:the_acknowledgment"
+    }
+  },
+  "result": {
+    "item": "enigmaticdelicacy:the_glistening",
+    "count": 1
+  }
+}

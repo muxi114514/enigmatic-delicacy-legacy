@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FFF",
+    "MXM",
+    "DUD"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:dragon_breath"
+    },
+    "F": {
+      "item": "enigmaticdelicacy:forbidden_meat"
+    },
+    "M": {
+      "type": "forge:ore_dict",
+      "ore": "listAllmilk"
+    },
+    "U": {
+      "item": "farmersdelight:pie_crust"
+    },
+    "X": [
+      {
+        "item": "enigmaticlegacy:forbidden_fruit"
+      },
+      {
+        "item": "enigmaticdelicacy:forbidden_fruit_slice"
+      }
+    ]
+  },
+  "result": {
+    "item": "enigmaticdelicacy:chaotic_pie",
+    "count": 1
+  }
+}

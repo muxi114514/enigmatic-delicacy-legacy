@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EXE",
+    "CSC",
+    "IBI"
+  ],
+  "key": {
+    "B": {
+      "item": "farmersdelight:pie_crust"
+    },
+    "C": {
+      "item": "enigmaticdelicacy:enigmatic_cream"
+    },
+    "E": {
+      "item": "eaddons:earth_heart_fragment"
+    },
+    "I": {
+      "type": "forge:ore_dict",
+      "ore": "listAllmilk"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "X": {
+      "item": "enigmaticdelicacy:enigmatic_fruit_green"
+    }
+  },
+  "result": {
+    "item": "enigmaticdelicacy:sticky_pie",
+    "count": 1
+  }
+}

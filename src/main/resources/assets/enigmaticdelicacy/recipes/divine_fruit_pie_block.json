@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MIM",
+    "DXD",
+    "AUA"
+  ],
+  "key": {
+    "A": {
+      "item": "enigmaticlegacy:astral_dust"
+    },
+    "D": {
+      "item": "minecraft:dragon_breath"
+    },
+    "I": {
+      "item": "enigmaticlegacy:ichor_bottle"
+    },
+    "M": {
+      "type": "forge:ore_dict",
+      "ore": "listAllmilk"
+    },
+    "U": {
+      "item": "minecraft:bowl"
+    },
+    "X": {
+      "item": "enigmaticlegacy:astral_fruit"
+    }
+  },
+  "result": {
+    "item": "enigmaticdelicacy:divine_fruit_pie_block",
+    "count": 1
+  }
+}

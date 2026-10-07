@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NXN",
+    "N N",
+    "IUI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:gold_ingot"
+    },
+    "N": {
+      "item": "minecraft:gold_nugget"
+    },
+    "U": {
+      "item": "enigmaticlegacy:earth_heart",
+      "data": 0
+    },
+    "X": {
+      "item": "enigmaticdelicacy:enigmatic_fruit_green"
+    }
+  },
+  "result": {
+    "item": "enigmaticlegacy:enigmatic_amulet",
+    "data": 5,
+    "count": 1
+  }
+}

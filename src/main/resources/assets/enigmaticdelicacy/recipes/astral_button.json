@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "enigmaticdelicacy:astral_planks"
+    }
+  ],
+  "result": {
+    "item": "enigmaticdelicacy:astral_button",
+    "count": 1
+  }
+}

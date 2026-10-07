@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "APA",
+    "QXQ",
+    "APA"
+  ],
+  "key": {
+    "A": {
+      "item": "enigmaticdelicacy:astral_leaf"
+    },
+    "P": {
+      "item": "enigmaticdelicacy:astral_petal"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "X": {
+      "item": "minecraft:glowstone"
+    }
+  },
+  "result": {
+    "item": "enigmaticdelicacy:astral_charm",
+    "count": 1
+  }
+}

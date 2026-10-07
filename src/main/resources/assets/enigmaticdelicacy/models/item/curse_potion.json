@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "enigmaticdelicacy:item/curse_potion",
+    "layer1": "enigmaticdelicacy:item/curse_potion_overlay"
+  }
+}

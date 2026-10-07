@@ -1,0 +1,11 @@
+{
+  "parent": "enigmaticdelicacy:block/orientable_with_overlay",
+  "textures": {
+    "bottom": "enigmaticdelicacy:block/etherium_stove_bottom",
+    "front": "enigmaticdelicacy:block/etherium_stove_front_on",
+    "side": "enigmaticdelicacy:block/etherium_stove_side",
+    "top": "enigmaticdelicacy:block/etherium_stove_top_on",
+    "side_overlay": "enigmaticdelicacy:block/etherium_stove_side_overlay",
+    "top_overlay": "enigmaticdelicacy:block/etherium_stove_top_overlay"
+  }
+}

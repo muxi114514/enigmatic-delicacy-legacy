@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "enigmaticdelicacy:block/astral_planks_top",
+    "side": "enigmaticdelicacy:block/astral_planks",
+    "top": "enigmaticdelicacy:block/astral_planks_top"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "enigmaticdelicacy:item/rice_cake_in_astral_leaf"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "honey": 1
+      },
+      "model": "enigmaticdelicacy:item/rice_cake_in_astral_leaf_with_honey"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PXP",
+    "GDG",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "enigmaticdelicacy:astral_leaf"
+    },
+    "B": {
+      "item": "minecraft:bowl"
+    },
+    "D": {
+      "item": "minecraft:dragon_breath"
+    },
+    "G": {
+      "item": "enigmaticdelicacy:glistening_bark"
+    },
+    "P": {
+      "item": "enigmaticdelicacy:astral_petal"
+    },
+    "X": {
+      "item": "enigmaticdelicacy:astral_fruit_slice"
+    }
+  },
+  "result": {
+    "item": "enigmaticdelicacy:starlight_salad",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "___",
+    "D D",
+    "___"
+  ],
+  "key": {
+    "D": {
+      "item": "enigmaticdelicacy:astral_trapdoor"
+    },
+    "_": {
+      "item": "enigmaticdelicacy:astral_slab",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "enigmaticdelicacy:astral_cabinet",
+    "count": 1
+  }
+}

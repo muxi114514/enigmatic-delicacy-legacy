@@ -1,0 +1,45 @@
+{
+	"parent": "minecraft:block/block",
+	"render_type": "cutout",
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [ 0, 135, 0 ],
+			"translation": [ 0, 0, 0 ],
+			"scale": [ 0.40, 0.40, 0.40 ]
+		}
+	},
+	"textures": {
+		"front": "#front",
+		"bottom": "#bottom",
+		"side": "#side",
+		"top": "#top",
+		"side_overlay": "#side_overlay",
+		"top_overlay": "#top_overlay",
+		"particle": "#front"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#front"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#side_overlay"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side_overlay"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#side_overlay"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side_overlay"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top_overlay"}
+			}
+		}
+	]
+}

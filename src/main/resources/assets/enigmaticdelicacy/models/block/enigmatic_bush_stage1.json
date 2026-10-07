@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "enigmaticdelicacy:block/enigmatic_bush_stage1"
+  }
+}
