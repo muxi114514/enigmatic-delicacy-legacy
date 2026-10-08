@@ -12,6 +12,7 @@ import net.mx.edelicacy.charm.AstralTranquility;
 import net.mx.edelicacy.charm.SleepTracker;
 import net.mx.edelicacy.registry.DelicacyItems;
 import net.mx.edelicacy.util.EnigmaticBridge;
+import net.mx.edelicacy.util.PlayerSleepAccess;
 
 /**
  * 睡眠相关：天体安神茶的入睡提示与醒来后标记的保留（星花护符 / 安宁之戒），安宁之戒醒来回满血。
@@ -29,7 +30,7 @@ public class SleepEvents {
             return;
         }
         SleepTracker.track(player);
-        if (!player.isPlayerSleeping() || player.getSleepTimer() != MESSAGE_TICK) {
+        if (!player.isPlayerSleeping() || PlayerSleepAccess.getSleepTimer(player) != MESSAGE_TICK) {
             return;
         }
         if (EnigmaticBridge.isCursed(player) && AstralTranquility.isTranquilized(player)) {

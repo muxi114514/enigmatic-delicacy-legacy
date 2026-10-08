@@ -42,7 +42,8 @@ public class GlisteningTeaItem extends DelicacyDrinkItem {
         }
         Item charmItem = DelicacyItems.GLISTENING_CHARM;
         if (charmItem != null) {
-            player.getCooldownTracker().removeCooldown(charmItem);
+            // removeCooldown 是客户端方法；设为 0 tick 双端通用，下一 tick 清掉并同步给客户端
+            player.getCooldownTracker().setCooldown(charmItem, 0);
             ItemStack charm = EnigmaticBridge.getBauble(player, charmItem);
             if (!charm.isEmpty()) {
                 GlisteningResistance.add(charm, CHARM_BONUS);

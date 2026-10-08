@@ -40,7 +40,7 @@ public class EnigmaticDelicacy {
 
     public static final String MODID = "enigmaticdelicacy";
     public static final String NAME = "Enigmatic Delicacy";
-    public static final String VERSION = "1.0.0";
+    public static final String VERSION = "1.1";
 
     @SidedProxy(clientSide = "net.mx.edelicacy.proxy.ClientProxy", serverSide = "net.mx.edelicacy.proxy.CommonProxy")
     public static CommonProxy proxy;
